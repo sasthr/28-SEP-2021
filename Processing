@@ -1,0 +1,28 @@
+package com.stage;
+import javafx.application.Application;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.paint.Color;
+import javafx.stage.Stage;
+public class StageDemo extends Application {
+@Override
+public void start(Stage outStage) throws Exception {
+// setting the title for our application
+outStage.setTitle("Stage Demo");
+// creating a group object for adding it to the scene
+Group group = new Group();
+// creating a scene object with width and height
+Scene sceneOut = new Scene(group, 520, 520);
+// setting AQUA color to the scene object
+sceneOut.setFill(Color.AQUA);
+// Adding scene object to the stage object
+outStage.setScene(sceneOut);
+// showing the output to the user
+outStage.show();
+}
+public static void main(String args[]) {
+// JVM calls start method automatically
+launch(args);
+}
+}
+
