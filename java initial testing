@@ -7,10 +7,12 @@ Scanner reader = new Scanner(input);
 
 ArrayList<String> read = new ArrayList<>();
 
-while (true) {
+while (true)
+{
     System.out.println("Enter an input: ");
     String line = reader.nextLine();
-    if (read.contains(line)) {
+    if (read.contains(line)) 
+    {
         break;
     }
 
