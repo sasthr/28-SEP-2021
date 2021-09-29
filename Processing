@@ -4,9 +4,11 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-public class StageDemo extends Application {
+public class StageDemo extends Application 
+{
 @Override
-public void start(Stage outStage) throws Exception {
+public void start(Stage outStage) throws Exception 
+{
 // setting the title for our application
 outStage.setTitle("Stage Demo");
 // creating a group object for adding it to the scene
@@ -20,7 +22,8 @@ outStage.setScene(sceneOut);
 // showing the output to the user
 outStage.show();
 }
-public static void main(String args[]) {
+public static void main(String args[])
+{
 // JVM calls start method automatically
 launch(args);
 }
